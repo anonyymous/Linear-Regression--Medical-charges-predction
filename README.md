@@ -1,7 +1,11 @@
 # Linear-Regression
 
-    Choosen a dataset from kaggle and done the data cleaning as the first method.
-    Implemented the necessary EDA and data visualization methods using python libraries such as pandas,numpy,seaborn and etc.
-    Also done the feature selction and feature extracting methods
-    Used the linear regression algorithm and evaluated the model
-    Finally splitted the data as train and test and model evaluation was done.
+
+The model assumption linear regression as follows
+
+   1. In our model the actual vs predicted plot is curve so linear assumption fails
+   2. The residual mean is zero and residual error plot right skewed
+   3. Q-Q plot shows as value log value greater than 1.5 trends to increase
+   4. The plot is exhibit heteroscedastic, error will insease after certian point.
+   5. Variance inflation factor value is less than 5, so no multicollearity.
+
